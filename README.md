@@ -1,13 +1,13 @@
-cd ~/.ssh/
-ssh-keygen -t rsa -C "username@mail.ttt"
+`cd ~/.ssh/`  
+`ssh-keygen -t rsa -C "username@mail.ttt"`  
 
-Enter file in which to save the key: github
+`Enter file in which to save the key: github`  
 
-Переходим в настройки аккаунта (Settings)
-Переходим в SSH and GPG keys
+Переходим в настройки аккаунта (Settings)  
+Переходим в SSH and GPG keys  
 New SSH key
 
-Вставляем содержимое файла
-cat github.pub
+Вставляем содержимое файла  
+`cat github.pub`  
 
 Для atom перейти на вкладку GitHub и получить GitHub token
