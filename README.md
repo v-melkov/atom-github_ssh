@@ -9,3 +9,5 @@ New SSH key
 
 Вставляем содержимое файла
 cat github.pub
+
+Для atom перейти на вкладку GitHub и получить GitHub token
